@@ -32,24 +32,24 @@ button {
     transition: 1s;
 }
 
-.variant-outline {
+.outline {
     color: #3D5AFE;
     background-color: #ffffff;
     border: 2px solid #3D5AFE;
 }
 
-.variant-outline:hover,
-.variant-outline:focus {
+.outline:hover,
+.outline:focus {
     background-color: rgba(41, 98, 255, 0.1);
 }
 
-.variant-text {
+.text {
     color: #3D5AFE;
     background-color: #ffffff;
 }
 
-.variant-text:hover,
-.variant-text:focus {
+.text:hover,
+.text:focus {
     background-color: rgba(41, 98, 255, 0.1);
 }
 
@@ -68,4 +68,109 @@ button {
 .variant-text-disabled {
     background: none;
     color: #9E9E9E;
+}
+
+.color {
+    color: #FFFFFF;
+    background-color: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+.box-shadow {
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+.sm {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.md {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.lg {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.default-color {
+    background-color: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.default-color:hover,
+.default-color:focus {
+    background-color: #AEAEAE;
+}
+
+.primary-color {
+    background-color: #2962FF;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.primary-color:hover,
+.primary-color:focus {
+    background-color: #0039CB;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+.secondary-color {
+    background-color: #455A64;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    color: #FFFFFF;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.secondary-color:hover,
+.secondary-color:focus {
+    background-color: #1C313A;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.danger {
+    background-color: #D32F2F;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    color: #FFFFFF;
+}
+
+.danger:hover,
+.danger:focus {
+    background-color: #9A0007;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+
+.local_gocery_store {
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    color: #FFFFFF;
+}
+
+.start-icon {
+    background-image: url(./icons/shopping-cart-empty-side-view.svg);
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: 50%;
+}
+
+.end-icon {
+    background-image: url(./icons/shopping-cart-empty-side-view.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 50%;
 }
