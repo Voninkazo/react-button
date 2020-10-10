@@ -4,25 +4,21 @@ import Button from './Button';
 function App () {
         return (
             <div>
-                <Button>Default</Button>
+                <Button default>Default</Button>
                 <Button variant="outline"> Button</Button>
                 <Button variant="text">Button</Button>
-                <Button disabledShadow="disabled-shadow">Default</Button>
-                <Button disabled="disabled">Disabled</Button>
-                <Button startIcon="local_gocery_store start-icon">Button</Button>
-                <Button endIcon="local_gocery_store end-icon">Button</Button>
+                <Button disabledShadow>Default</Button>
+                <Button disabled>Disabled</Button>
+                <Button startIcon="local_gocery_store">Button</Button>
+                <Button endIcon="local_gocery_store">Button</Button>
                 <Button size="sm" color="color">Samll</Button>
                 <Button size="md" color="color">Medium</Button>
                 <Button size="lg" color="color">Large</Button>
-                <Button variant="text" disabled="disabled">Text disabled</Button>
-                 <Button>
-                </Button>
-                 <Button>
-                </Button>
-                <Button>
-                </Button>
-                <Button>
-                </Button>
+                <Button variant="text" disabled>Text disabled</Button>
+                 <Button color="default">Default</Button>
+                 <Button color="primary">Primary</Button>
+                <Button color="secondary">Secondary</Button>
+                <Button color="danger">Danger</Button>
             </div>
         )
     }

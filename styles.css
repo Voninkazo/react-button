@@ -53,6 +53,12 @@ button {
     background-color: rgba(41, 98, 255, 0.1);
 }
 
+.text-disabled {
+    color: #9E9E9E;
+    background: none;
+    cursor: auto;
+}
+
 .disabled-shadow {
     color: #FFFFFF;
     background-color: #3D5AFE;
@@ -111,7 +117,7 @@ button {
     background-color: #AEAEAE;
 }
 
-.primary-color {
+.primary {
     background-color: #2962FF;
     color: #FFFFFF;
     box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
@@ -121,13 +127,13 @@ button {
     padding-bottom: 8px;
 }
 
-.primary-color:hover,
-.primary-color:focus {
+.primary:hover,
+.primary:focus {
     background-color: #0039CB;
     box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
 }
 
-.secondary-color {
+.secondary {
     background-color: #455A64;
     box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
     color: #FFFFFF;
@@ -137,8 +143,8 @@ button {
     padding-bottom: 8px;
 }
 
-.secondary-color:hover,
-.secondary-color:focus {
+.secondary:hover,
+.secondary:focus {
     background-color: #1C313A;
     box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
 }
