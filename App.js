@@ -15,8 +15,8 @@ function App () {
                 <Button size="md" color="color">Medium</Button>
                 <Button size="lg" color="color">Large</Button>
                 <Button variant="text" disabled>Text disabled</Button>
-                 <Button color="default">Default</Button>
-                 <Button color="primary">Primary</Button>
+                <Button color="default">Default</Button>
+                <Button color="primary">Primary</Button>
                 <Button color="secondary">Secondary</Button>
                 <Button color="danger">Danger</Button>
             </div>

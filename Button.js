@@ -6,7 +6,7 @@ function Button(props) {
     if (props.variant) {
         thisClass= `${props.variant}`
     } else if (props.startIcon) {
-        thisClass= "start-icon local_gocery_store"
+        thisClass= `${props.startIcon} local_gocery_store`
     }
     else if(props.default) {
         thisClass="default"
